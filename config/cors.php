@@ -19,17 +19,17 @@ return [
 
     'allowed_methods' => ['*'],
 
+    
+
     'paths' => ['api/*'],
-    'allowed_origins' => ['https://techwave-gilt.vercel.app'],
     'allowed_methods' => ['*'],
-    'allowed_headers' => ['Content-Type', 'X-Requested-With'],
-    'exposed_headers' => false,
+    'allowed_origins' => ['*'],
+    'allowed_headers' => ['*'],
+    'exposed_headers' => [],
     'max_age' => 0,
-    'supports_credentials' => false,
+    
 
     'allowed_origins_patterns' => [],
-
-    'allowed_headers' => ['*'],
 
     'exposed_headers' => [],
 
